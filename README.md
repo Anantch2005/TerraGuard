@@ -1,7 +1,7 @@
 # TerraGuard 🚀
 
 <p align="center">
-  <img src="terraguard/assets/intro"
+  <img src="terraguard/assets/intro.png"
    width="900"/>
 </p>
 
