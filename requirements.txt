@@ -1,0 +1,9 @@
+python-hcl2
+typer
+rich
+requests
+boto3
+groq
+python-dotenv
+textual
+pyperclip

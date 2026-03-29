@@ -1,0 +1,15 @@
+RESOURCE_MAP = {
+    "aws_instance": "EC2",
+    "aws_vpc": "VPC",
+    "aws_subnet": "Subnet",
+    "aws_security_group": "Security Group",
+    "aws_internet_gateway": "Internet Gateway",
+    "aws_route_table": "Route Table",
+    "aws_route_table_association": "Route Table Association",
+    "aws_key_pair": "Key Pair",
+    "aws_s3_bucket": "S3 Bucket",
+    "aws_lambda_function": "Lambda",
+    "aws_db_instance": "RDS",
+    "aws_lb": "Load Balancer",
+    "aws_dynamodb_table": "DynamoDB",
+}
