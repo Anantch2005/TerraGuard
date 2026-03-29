@@ -184,7 +184,98 @@ terraguard/
 ├── ai_explainer.py
 └── optimizer/
 ```
+## ⚙️ Installation & Setup
 
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Anantch2005/terraguard-ai.git
+cd terraguard-ai
+```
+
+---
+
+### 2️⃣ Create Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate   # Linux / Mac
+# venv\Scripts\activate    # Windows
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Install TerraGuard (CLI Setup)
+
+```bash
+pip install .
+```
+
+👉 This installs the `terraguard` command globally in your environment
+
+---
+
+### 5️⃣ Configure Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+--- 
+
+### 6️⃣ Configure AWS Credentials *(Required for Cost Analysis)*
+
+#### 🔹 Option 1 — AWS CLI (Recommended)
+
+```bash id="7s4p1d"
+aws configure
+```
+
+#### 🔹 Option 2 — Environment Variables
+
+```bash id="2f9k3x"
+export AWS_ACCESS_KEY_ID=your_access_key
+export AWS_SECRET_ACCESS_KEY=your_secret_key
+export AWS_DEFAULT_REGION=us-east-1
+```
+
+👉 Without AWS credentials, **cost estimation features will be limited**
+
+---
+
+### 7️⃣ Run TerraGuard
+
+```bash
+terraguard init
+```
+
+---
+
+## 🧪 Example Usage
+
+```bash
+cd terraform_examples/basic
+terraguard init
+```
+
+---
+
+## 💡 Tip
+
+> For the best visual experience, use a **Nerd Font** in your terminal to properly render icons in the TUI.
+
+
+
+        
 ---
 
 ## 🛠️ Tech Stack
