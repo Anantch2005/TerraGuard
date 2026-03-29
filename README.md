@@ -223,7 +223,7 @@ terraguard/
 
 ## 👨‍💻 Author
 
-Built by **Anant**
+Built by **Anant Chaudhary**
 
 DevOps Engineer (aspiring) | Building intelligent cloud systems 🚀
 
