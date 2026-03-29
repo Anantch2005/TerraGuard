@@ -44,7 +44,7 @@ TerraGuard introduces an **intelligent analysis layer** on top of Terraform by c
 TerraGuard integrates an AI reasoning layer that interprets infrastructure and converts it into **clear, concise, and meaningful explanations**.
 
 <p align="center">
-  <img src="terraguard/assets/ai.png" width="750"/>
+  <img src="terraguard/assets/ai.png" width="500"/>
 </p>
 
 * Translates complex Terraform into **human-understandable insights**
